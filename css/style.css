@@ -68,9 +68,11 @@ body{
   line-height: 1.2;
   text-transform: uppercase;
   margin-bottom: 51px;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-name: desarrollo;
   
 }
-
 .btn-1{
   position: absolute;
   color: white;
@@ -158,6 +160,7 @@ td.second {
   text-transform: uppercase;
   margin-bottom: 51px;
   text-align: center;
+  animation-name: mov1;
   
 }
 
@@ -220,3 +223,49 @@ td.second {
 transform: rotate(90deg);
 
 }
+
+@keyframes mov {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+td img {
+  animation-duration: 4s;
+  animation-name: mov;
+}
+
+td div {
+
+  animation-duration: 4s;
+  animation-name: mov;
+}
+
+@keyframes desarrollo{
+  from {
+    color:  yellow;;  }
+    to {
+      color: white;
+    }
+
+}
+
+
+@keyframes mov1 {
+  from {
+    margin-top:  30%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
