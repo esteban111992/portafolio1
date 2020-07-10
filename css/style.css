@@ -269,3 +269,136 @@ td div {
   }
 }
 
+
+@font-face {
+  font-family: font;
+  src: url(../fonts/lemon.otf);
+  }
+  div div {
+  font-family: font;
+  }
+
+  @font-face {
+    font-family: foo;
+    src: url(../fonts/hello.otf);
+    }
+
+    footer{
+    font-family: foo;
+    }
+
+
+
+   /* Icono ios*/
+   
+
+     /* Icono android*/
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts1/icomoon.eot?v9498j');
+    src:  url('../fonts1/icomoon.eot?v9498j#iefix') format('embedded-opentype'),
+      url('../fonts1/icomoon.ttf?v9498j') format('truetype'),
+      url('../fonts1/icomoon.woff?v9498j') format('woff'),
+      url('../fonts1/icomoon.svg?v9498j#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-android:before {
+    content: "\e903";
+  }
+  
+
+/* Icono web */
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts2/icomoon.eot?tujx3o');
+    src:  url('../fonts2/icomoon.eot?tujx3o#iefix') format('embedded-opentype'),
+      url('../fonts2/icomoon.ttf?tujx3o') format('truetype'),
+      url('../fonts2/icomoon.woff?tujx3o') format('woff'),
+      url('../fonts2/icomoon.svg?tujx3o#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-web:before {
+    content: "\e904";
+    color: #2175aa;
+  }
+  
+
+ /*Icono iOS*/
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?acanli');
+    src:  url('../fonts/icomoon.eot?acanli#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?acanli') format('truetype'),
+      url('../fonts/icomoon.woff?acanli') format('woff'),
+      url('../fonts/icomoon.svg?acanli#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-ios .path1:before {
+    content: "\e900";
+    color: rgb(110, 110, 110);
+  }
+  .icon-ios .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-ios .path3:before {
+    content: "\e902";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  
