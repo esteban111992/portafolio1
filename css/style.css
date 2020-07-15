@@ -17,7 +17,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #111111;
 }
 
 li {
@@ -275,7 +274,7 @@ td div {
   src: url(../fonts/lemon.otf);
   }
   div div {
-  font-family: font;
+    font-family: 'Sora', sans-serif;
   }
 
   @font-face {
@@ -465,18 +464,438 @@ td div {
     }
     
     .texto{
+      position: absolute;
+    }
+    
+    .textoencima{
+      display: none;
+      position: relative;
+      color: white;
+      top: 800px;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: #fff;
+      line-height: 1.2;
+      text-transform: uppercase;
+      margin-bottom: 51px;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+      animation-name: desarrollo;
+      font-family: 'Sora', sans-serif;
+      
+    }
+    .btn-1{
+      display: none;
+      position: absolute;
+      color: white;
+      top: 20%;
+      left: 18%;
+      transform: rotate(y);
+      font-size: 4px;
+      font-weight: 20px;
+      margin-bottom: 14px;
+      color: #fff;
+      line-height: 1.2;
+      text-transform: uppercase;
+      margin-bottom: 51px;
+      background-color: rgb(240, 78, 60);
+      padding: 15px;
+    }
+    
+    a {
+      cursor: pointer;
+    }
+    
+    td {
+      font-size: 15px;
+      line-height: 20px;
+      padding: 0 20px;
+      text-align: justify;
+      vertical-align: top;
+      width: 30%;
+    }
+    
+    td.first {
+      border-right: 5px solid #4BB495  ;
+    
+    }
+    
+    td.second {
+      border-right: 5px solid #4BB495  ;
+    }
+    
+    
+    
+    .imagenes{
+      width: 90%;
+      height: 50px;
+      border-radius: 10px;
+    }
+    
+    .tabla{
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    
+    .textoima{
+      position: relative;
+    }
+    
+    .textoencima1{
+      position: absolute;
+      color: white;
+      top: 300px;
+      left: 17%;
+      transform: translate(-50%, -50%);
+      font-size: 10px;
+      font-weight: 500;
+      margin-bottom: 14px;
+      color: #fff;
+      line-height: 1.2;
+      text-transform: uppercase;
+      margin-bottom: 51px;
+      text-align: center;
+      
+    }
+    
+    .textoencima2{
+      position: absolute;
+      color: white;
+      top: 300px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 10px;
+      font-weight: 500;
+      margin-bottom: 14px;
+      color: #fff;
+      line-height: 1.2;
+      text-transform: uppercase;
+      margin-bottom: 51px;
+      text-align: center;
+      animation-name: mov1;
+      
+    }
+    
+    .textoencima3{
+      position: absolute;
+      color: white;
+      top: 300px;
+      left: 83%;
+      transform: translate(-50%, -50%);
+      font-size: 10px;
+      font-weight: 500;
+      margin-bottom: 14px;
+      color: #fff;
+      line-height: 1.2;
+      text-transform: uppercase;
+      margin-bottom: 51px;
+      text-align: center;
+      
+    }
+    
+    .pie{
+    
+      height: 50px;
+      width: 100%;
+      bottom: 0;
+      top: auto;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      background-color: black;
+      color: white;
+      text-align: center;
+      position: fixed;
+      text-align: center;
+      margin-top: 40px;
+    }
+    
+    .tabla1{
+      margin-top: 40px;
+      margin-bottom: 80px;
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+    
+    .social{
+      position: fixed  ;
+      bottom:60px;
+      right: 20px;
+    }
+    
+    .social1{
+      margin:5px;
+      height: 40px;
+      display: block;
+      float: right;
+      transform: rotate(45deg);
+    }
+    
+    .images:hover{
+    
+    transform: rotate(90deg);
+    
+    }
+
+    .images{
+      width: 20px;
+      height: 20px;
+    }
+    
+    @keyframes mov {
+      from {
+        margin-left: 100%;
+        width: 300%
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+    
+    td img {
+      animation-duration: 4s;
+      animation-name: mov;
+    }
+    
+    td div {
+    
+      animation-duration: 4s;
+      animation-name: mov;
+    }
+    
+    @keyframes desarrollo{
+      from {
+        color:  yellow;;  }
+        to {
+          color: white;
+        }
+    
+    }
+    
+    
+    @keyframes mov1 {
+      from {
+        margin-top:  30%;
+        width: 300%
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+    
+    
+    @font-face {
+      src: url(../fonts/lemon.otf);
+      }
+      div div {
+        font-family: 'Sora', sans-serif;
+      }
+    
+      @font-face {
+        font-family: foo;
+        src: url(../fonts/hello.otf);
+        }
+    
+        footer{
+        font-family: foo;
+        }
+    
+
+    
+
+       
+    
+         /* Icono android*/
+      @font-face {
+        font-family: 'icomoon';
+        src:  url('../fonts1/icomoon.eot?v9498j');
+        src:  url('../fonts1/icomoon.eot?v9498j#iefix') format('embedded-opentype'),
+          url('../fonts1/icomoon.ttf?v9498j') format('truetype'),
+          url('../fonts1/icomoon.woff?v9498j') format('woff'),
+          url('../fonts1/icomoon.svg?v9498j#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .icon-android:before {
+        content: "\e903";
+      }
+      
+    
+    /* Icono web */
+      @font-face {
+        font-family: 'icomoon';
+        src:  url('../fonts2/icomoon.eot?tujx3o');
+        src:  url('../fonts2/icomoon.eot?tujx3o#iefix') format('embedded-opentype'),
+          url('../fonts2/icomoon.ttf?tujx3o') format('truetype'),
+          url('../fonts2/icomoon.woff?tujx3o') format('woff'),
+          url('../fonts2/icomoon.svg?tujx3o#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .icon-web:before {
+        content: "\e904";
+        color: #2175aa;
+      }
+      
+    
+     /*Icono iOS*/
+      @font-face {
+        font-family: 'icomoon';
+        src:  url('../fonts/icomoon.eot?acanli');
+        src:  url('../fonts/icomoon.eot?acanli#iefix') format('embedded-opentype'),
+          url('../fonts/icomoon.ttf?acanli') format('truetype'),
+          url('../fonts/icomoon.woff?acanli') format('woff'),
+          url('../fonts/icomoon.svg?acanli#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .icon-ios .path1:before {
+        content: "\e900";
+        color: rgb(110, 110, 110);
+      }
+      .icon-ios .path2:before {
+        content: "\e901";
+        margin-left: -1em;
+        color: rgb(255, 255, 255);
+      }
+      .icon-ios .path3:before {
+        content: "\e902";
+        margin-left: -1em;
+        color: rgb(255, 255, 255);
+      }
+  }
+
+
+
+
+  /* Query tablet*/
+  @media (min-width: 408px) and (max-width: 800px){
+
+    .contenedor{
+      display: grid;
+          grid-template-columns: 100fr 0fr 0fr;
+          grid-template-rows: 0fr 0fr 0fr 0fr 0fr;
+          grid-template-areas: "head  head head" 
+                              "imagen imagen imagen"
+                              "buscador buscador buscador"
+                              "btn3 content content"
+                              "footer footer footer";
+          grid-gap: 0px;
+          background-color: #333;
+          padding: 0px;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #111111;
+      font-size: 6px;
+
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;  
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: rgb(240, 78, 60);
+    }
+    
+    body{
+      background-color: #000000;
+    }
+    
+    .fondo{
+    
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+    
+    .imagen{
+      width: 100%;
+      height: 100%;
+    }
+    
+    .texto{
       position: relative;
     }
     
     .textoencima{
       position: absolute;
       color: white;
-      top: 20%;
+      top: 10%;
       left: 40%;
       transform: translate(-50%, -50%);
-      font-size: 20px;
-      font-weight: 700;
-      margin-bottom: 14px;
+      font-size: 40px;
+      font-weight: 300px;
+      margin-bottom: 5px;
       color: #fff;
       line-height: 1.2;
       text-transform: uppercase;
@@ -637,6 +1056,11 @@ td div {
     transform: rotate(90deg);
     
     }
+
+    .images{
+      width: 20px;
+      height: 20px;
+    }
     
     @keyframes mov {
       from {
@@ -689,7 +1113,7 @@ td div {
       src: url(../fonts/lemon.otf);
       }
       div div {
-      font-family: font;
+        font-family: 'Sora', sans-serif;
       }
     
       @font-face {
@@ -701,9 +1125,9 @@ td div {
         font-family: foo;
         }
     
+
     
-    
-       /* Icono ios*/
+
        
     
          /* Icono android*/
@@ -816,3 +1240,12 @@ td div {
         color: rgb(255, 255, 255);
       }
   }
+
+  .mac{
+    width: 50px;
+    height: 50px;
+  }
+
+.card{
+  margin-left: 70px;
+}
