@@ -408,6 +408,9 @@ td div {
   /* Query mobile*/
   @media screen and (max-width: 400px){
 
+    .card{
+      margin-left: 70px;
+    }
     .contenedor{
       display: grid;
           grid-template-columns: 100fr 0fr 0fr;
@@ -1249,3 +1252,4 @@ td div {
 .card{
   margin-left: 70px;
 }
+

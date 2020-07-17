@@ -1,0 +1,10 @@
+form{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 205px;
+  }
