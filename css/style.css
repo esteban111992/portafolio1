@@ -891,6 +891,7 @@ td div {
     }
     
     .textoencima{
+      display: none;
       position: absolute;
       color: white;
       top: 10%;
